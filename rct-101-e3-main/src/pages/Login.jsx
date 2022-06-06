@@ -33,8 +33,8 @@ const Login = () => {
 
   return (
     <div>
-      <input data-cy="login-email"  placeholder="mail" type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-      <input data-cy="login-password" placeholder="pass" type="text" value={password} onChange={(e) => setPassword(e.target.value)}/>
+      <input data-cy="login-email"  placeholder="Enter Email" type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
+      <input data-cy="login-password" placeholder="Enter Password" type="text" value={password} onChange={(e) => setPassword(e.target.value)}/>
       <button data-cy="login-submit" onClick={handleSubmit}>submit</button>
     </div>
   );
